@@ -1,0 +1,14 @@
+- [🏠 首页](/)
+- 🤖 AI 与大模型
+  - [8GB Mac mini 本地模型选型](/ai/local-model-selection.md)
+  - [本地模型做安全审查](/ai/local-reviewer.md)
+  - [云 GPU 微调大模型](/ai/cloud-gpu-finetune.md)
+- 🖥️ Mac 与硬件
+  - [Mac mini 统一内存选择](/mac/mac-mini-ram.md)
+- 🛡️ 安全与沙箱
+  - [多层安全防护体系](/security/multi-layer-security.md)
+  - [沙箱存储池与恶意检测](/security/sandbox-detector.md)
+  - [DLP 防泄密](/security/dlp.md)
+  - [插件市场安全预检](/security/plugin-market.md)
+- 📝 随手笔记
+  - [笔记模板](/notes/template.md)
