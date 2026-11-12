@@ -1,24 +1,18 @@
-# 个人知识库 · 成品
+# 个人知识库（私有 · 工程与过程）
 
-> 这里只放**已经定稿、可以直接给人看**的成品：整理好的文档与可浏览站点。
-> 写作过程、草稿、脚本与调试记录都在私有仓 `personal-knowledge-base`，不进这里。
+> **公开成品在**：[personal-knowledge-base-public](https://github.com/xiexie512/personal-knowledge-base-public)
+> 本仓现在是私有的，放工程文件、草稿与过程记录。
 
-## 内容
+## 结构
 
-| 目录 | 主题 |
+| 目录 | 放什么 |
 |---|---|
-| `ai/` | 本地模型选型、云 GPU 微调、本地审查器 |
-| `mac/` | Mac mini 内存相关 |
-| `security/` | DLP、多层安全、插件市场、沙箱检测器 |
-| `notes/` | 笔记模板 |
+| `engineering/` | 源码、脚本、素材（可复现，不追求可读） |
+| `process/` | 按日期的过程记录：目标、试了什么、卡在哪、怎么解决 |
+| `ai/` `mac/` `security/` `notes/` | 旧成品文档（历史遗留，定稿已迁到公开仓） |
 
-## 浏览
+## 规矩
 
-站点用 docsify 渲染，入口 `index.html`，侧边栏 `_sidebar.md`。
-启用 GitHub Pages 后可直接访问：https://xiexie512.github.io/personal-knowledge-base-public/
-
-## 约定
-
-- 一篇文档只有在**结论稳定、可直接引用**后才允许进这里；
-- 未验证、带猜测、含密钥/口令的内容一律留在私有仓；
-- 新目录要同步更新 `_sidebar.md`，否则站点里看不到。
+- 密钥、口令、token、内网地址一律不入库；
+- 过程记录宁可粗糙也要写「报错原文」和「最后怎么通的」；
+- 定稿后再往公开仓搬一份，本仓保留历史版本。
