@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "afkmover",
+  "version": "1.0.0",
+  "name": "AFK Mover (Fabric 1.21.1)",
+  "description": "防挂机移动模组！1分钟不动自动按前、后、左、右格1格的顺序移动～",
+  "authors": ["大肥鱼"],
+  "contact": {
+    "homepage": "https://github.com/xiexie512/personal-knowledge-base-public",
+    "sources": "https://github.com/xiexie512/personal-knowledge-base-public/tree/afk-mover-fabric-1211"
+  },
+  "license": "MIT",
+  "icon": "assets/afkmover/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.dafatfish.afkmover.AfkMoverClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
