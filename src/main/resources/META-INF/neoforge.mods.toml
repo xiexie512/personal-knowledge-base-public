@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+
+[[mods]]
+modId = "afkmover"
+version = "1.0.0"
+displayName = "AFK Mover"
+authors = "大肥鱼"
+description = '''
+防挂机移动模组！
+1分钟不动自动按前、后、左、右格1格的顺序移动～
+由本鱼——大肥鱼为你打造～
+嘿嘿，再也不用担心被踢下线啦！
+'''
+
+[[dependencies.afkmover]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.afkmover]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"
